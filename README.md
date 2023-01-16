@@ -1,12 +1,12 @@
 # Directed_Graph_Port
-This project contains classes in order to generate in Python a directed graph.
+This project contains Python code to support the creation of directed graphs.
 
 The main class of the project is DirectedGrapy in directed_graph.py file.
-It has a constructor which receives a dictionary.
+It has a constructor which receives a dictionary as parameter.
 
-The graph can be created by 2 different entries:
+The graph can be created by 2 different ways:
 1. based on a dictionary passed to the constructor of the class DirectedGraph, passing both List, nodes and edges.
-2. based on a dictionary passed to teh constructor of the class DirectedGraph, passing an existing file.
+2. based on a dictionary passed to the constructor of the class DirectedGraph, passing an existing file.
 
 To execute the python script/class from the root directory (<Git Files Local Path>/Directed_Graph_Port/Directed_Graph_Project) run: 
 - py main.py
@@ -39,7 +39,6 @@ dictionary_initializer = {
    
 }
 
-
 These are the variables used in the dictionary just mentioned:
 **True to Generate graph from file, False = Generate graph from Lists (dictionary "dictionary_initializer" below)**
    
@@ -60,3 +59,4 @@ reporting               = True
 **True to show documentation**
    
 show_documentation      = True
+  
