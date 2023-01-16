@@ -28,15 +28,15 @@ show_graph              = True
 # True Show report
 reporting               = True
 # True to show documentation
-show_documentation      = True
+show_documentation      = False
 # Switch Comment/Uncomment below for file_format to GML or GRAPML file format (persistency)
 # Record format, it impacts in the record/retrieve effiency (for types check: RecordFormat Enum)
 # file_format = RecordFormat.GML.value # Record format, impacts in the effiency (for types check: RecordFormat Enum)
 file_format             = RecordFormat.GRAPHML.value
 # just file name without file extension
 file_name               = "directed_graphy_1" 
-nodes                   = [ 'A', 'B', 'C' ]
-edges                   = [ ('A', 'B'), ('A', 'C'), ( 'B','C'), ('A', 'E') ]
+nodes                   = [ 'A', 'B', 'C', 'D', 'E', 'F' ]
+edges                   = [ ('A', 'B'), ('A', 'C'), ( 'B','C'), ('C', 'D'), ('D', 'E'),('E', 'F') ]
 
 # Dictionary to initializer the constructor of DirectedGraph class
 dictionary_initializer = {
