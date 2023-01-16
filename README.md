@@ -22,7 +22,8 @@ The class DirectedGraph will generate:
    Log file name = directed_graph_1.log
    
 Below you can find the dictionary used to pass to the constructor of the class DirectedGraph:
-# Dictionary to initializer the constructor of DirectedGraph class
+** Dictionary to initializer the constructor of DirectedGraph class **
+"""
 dictionary_initializer = {
     "load_graph_from_file": load_graph_from_file,
     "file_name":            file_name, 
@@ -30,15 +31,16 @@ dictionary_initializer = {
     "nodes":                nodes,
     "edges":                edges
 }
+"""
 
 These are the variables used in the dictionary just mentioned:
-<!-- True to Generate graph from file, False = Generate graph from Lists (dictionary "dictionary_initializer" below) -->
+** True to Generate graph from file, False = Generate graph from Lists (dictionary "dictionary_initializer" below) **
 load_graph_from_file    = False
-# Serialize graph to disk
+** Serialize graph to disk **
 serialize               = True 
-# True to Plot graph
+** True to Plot graph **
 show_graph              = True 
-# True Show report
+** True Show report **
 reporting               = True
-# True to show documentation
+** True to show documentation **
 show_documentation      = True
