@@ -9,8 +9,8 @@ The graph can be created by 2 different entries:
 2. based on a dictionary passed to teh constructor of the class DirectedGraph, passing an existing file.
 
 To execute the python script/class from the root directory (<Git Files Local Path>/Directed_Graph_Port/Directed_Graph_Project) run: 
-Option 1. py main.py
-Option 2: python -m unittest test_main.p
+- Option 1. py main.py
+- Option 2: python -m unittest test_main.p
 
 The code will generate the graph when variable serialize = True
 The code will plot/show the graph in a popup windows when show_graph variable = True
@@ -22,7 +22,7 @@ The class DirectedGraph will generate:
    Log file name = directed_graph_1.log
    
 Below you can find the dictionary used to pass to the constructor of the class DirectedGraph:
-** Dictionary to initializer the constructor of DirectedGraph class **
+**Dictionary to initializer the constructor of DirectedGraph class**
 """
 dictionary_initializer = {
     "load_graph_from_file": load_graph_from_file,
@@ -34,13 +34,13 @@ dictionary_initializer = {
 """
 
 These are the variables used in the dictionary just mentioned:
-** True to Generate graph from file, False = Generate graph from Lists (dictionary "dictionary_initializer" below) **
+**True to Generate graph from file, False = Generate graph from Lists (dictionary "dictionary_initializer" below)**
 load_graph_from_file    = False
-** Serialize graph to disk **
+**Serialize graph to disk**
 serialize               = True 
-** True to Plot graph **
+**True to Plot graph**
 show_graph              = True 
-** True Show report **
+**True Show report**
 reporting               = True
-** True to show documentation **
+**True to show documentation**
 show_documentation      = True
