@@ -32,7 +32,7 @@ dictionary_initializer = {
 }
 
 These are the variables used in the dictionary just mentioned:
-# True to Generate graph from file, False = Generate graph from Lists (dictionary "dictionary_initializer" below)
+<!-- True to Generate graph from file, False = Generate graph from Lists (dictionary "dictionary_initializer" below) -->
 load_graph_from_file    = False
 # Serialize graph to disk
 serialize               = True 
