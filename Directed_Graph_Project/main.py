@@ -28,7 +28,7 @@ show_graph              = True
 # True Show report
 reporting               = True
 # True to show documentation
-show_documentation      = False
+show_documentation      = False 
 # Switch Comment/Uncomment below for file_format to GML or GRAPML file format (persistency)
 # Record format, it impacts in the record/retrieve effiency (for types check: RecordFormat Enum)
 # file_format = RecordFormat.GML.value # Record format, impacts in the effiency (for types check: RecordFormat Enum)
